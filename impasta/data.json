@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "name": "Food",
+      "id": "food",
+      "words": [
+        "Pizza", "Sushi", "Hamburger", "Tacos", "Ice Cream", "Spaghetti", "Curry", "Salad", "Steak", "Pancakes"
+      ]
+    },
+    {
+      "name": "Animals",
+      "id": "animals",
+      "words": [
+        "Lion", "Penguin", "Elephant", "Giraffe", "Kangaroo", "Dolphin", "Eagle", "Snake", "Panda", "Shark"
+      ]
+    },
+    {
+      "name": "Cities",
+      "id": "cities",
+      "words": [
+        "Tokyo", "New York", "Paris", "London", "Dubai", "Singapore", "Rome", "Sydney", "Cairo", "Rio de Janeiro"
+      ]
+    },
+    {
+      "name": "Jobs",
+      "id": "jobs",
+      "words": [
+        "Doctor", "Teacher", "Pilot", "Artist", "Programmer", "Chef", "Firefighter", "Astronaut", "Detective", "Farmer"
+      ]
+    },
+    {
+      "name": "Household Items",
+      "id": "household_items",
+      "words": [
+        "Toaster", "Sofa", "Lamp", "Refrigerator", "Bed", "Mirror", "Clock", "Vacuum", "Toothbrush", "Mug"
+      ]
+    },
+    {
+      "name": "Sports",
+      "id": "sports",
+      "words": [
+        "Soccer", "Basketball", "Tennis", "Swimming", "Golf", "Volleyball", "Baseball", "Boxing", "Skiing", "Cycling"
+      ]
+    }
+  ]
+}
