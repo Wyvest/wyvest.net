@@ -41,6 +41,31 @@
       "words": [
         "Soccer", "Basketball", "Tennis", "Swimming", "Golf", "Volleyball", "Baseball", "Boxing", "Skiing", "Cycling"
       ]
+    },
+    {
+      "name": "Games",
+      "id": "games",
+      "categories": [
+        {
+          "name": "General",
+          "id": "general_games",
+          "words": ["Chess", "Poker", "Video Games", "Board Games"]
+        },
+        {
+          "name": "Mario",
+          "id": "mario_universe",
+          "words": [
+            "Goomba", "Blue Shell", "Bullet Bill", "Piranha Plant", "Bowser", "Mushroom", "Odyssey", "banana peel", "Princess Peach", "Donkey Kong", "Luigi", "Mario Kart", "Mario Party", "1-Up", "Warp Pipe", "Chris Pratt", "Peaches song", "Rainbow Road"
+          ]
+        },
+        {
+          "name": "Nintendo",
+          "id": "nintendo_first_party",
+          "words": [
+            "Super Smash Bros", "Spike", "Recover", "Cooldown", "Edge guard", "Final Smash", "Melee", "Stock", "Kirby", "Animal Crossing", "Splatoon", "Smash rage quit", "tier list arguments", "Sakurai presents", "Nintendo Direct hype"
+          ]
+        }
+      ]
     }
   ]
 }
