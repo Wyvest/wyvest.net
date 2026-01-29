@@ -2,10 +2,12 @@
   "categories": [
     {
       "name": "Video games",
+      "icon": "gamepad-2",
       "id": "video_games",
       "categories": [
         {
           "name": "Mario",
+          "icon": "star",
           "id": "mario",
           "words": [
             "Goomba",
@@ -28,6 +30,7 @@
         },
         {
           "name": "Sega",
+          "icon": "zap",
           "id": "sega",
           "words": [
             "Sonic",
@@ -36,6 +39,7 @@
         },
         {
           "name": "Nintendo",
+          "icon": "gamepad",
           "id": "nintendo",
           "words": [
             "Super Smash Bros",
@@ -55,6 +59,7 @@
         },
         {
           "name": "Pokemon",
+          "icon": "circle-dot",
           "id": "pokemon",
           "words": [
             "Shiny",
@@ -80,6 +85,7 @@
         },
         {
           "name": "Zelda",
+          "icon": "sword",
           "id": "zelda",
           "words": [
             "Korok",
@@ -97,6 +103,7 @@
         },
         {
           "name": "Souls",
+          "icon": "skull",
           "id": "souls",
           "words": [
             "Bonfire",
@@ -118,6 +125,7 @@
         },
         {
           "name": "Riot",
+          "icon": "swords",
           "id": "riot",
           "words": [
             "Flash",
@@ -145,6 +153,7 @@
         },
         {
           "name": "Blizzard",
+          "icon": "snowflake",
           "id": "blizzard",
           "words": [
             "Nano",
@@ -164,6 +173,7 @@
         },
         {
           "name": "Valve",
+          "icon": "wrench",
           "id": "valve",
           "words": [
             "Eco",
@@ -183,6 +193,7 @@
         },
         {
           "name": "BattleRoyale",
+          "icon": "target",
           "id": "battleroyale",
           "words": [
             "Fortnite",
@@ -214,6 +225,7 @@
         },
         {
           "name": "Tactical",
+          "icon": "crosshair",
           "id": "tactical",
           "words": [
             "Valorant",
@@ -235,6 +247,7 @@
         },
         {
           "name": "Sandbox",
+          "icon": "box",
           "id": "sandbox",
           "words": [
             "Minecraft",
@@ -271,6 +284,7 @@
         },
         {
           "name": "Indie",
+          "icon": "sprout",
           "id": "indie",
           "words": [
             "Genocide",
@@ -302,6 +316,7 @@
         },
         {
           "name": "Mobile",
+          "icon": "smartphone",
           "id": "mobile",
           "words": [
             "Pancakes",
@@ -331,6 +346,7 @@
         },
         {
           "name": "Roblox",
+          "icon": "bot",
           "id": "roblox",
           "words": [
             "Obby",
@@ -347,6 +363,7 @@
         },
         {
           "name": "Roblox-Doors",
+          "icon": "door-open",
           "id": "roblox_doors",
           "words": [
             "Rush",
@@ -358,6 +375,7 @@
         },
         {
           "name": "Roblox-BedWars",
+          "icon": "bed",
           "id": "roblox_bedwars",
           "words": [
             "Generator",
@@ -368,6 +386,7 @@
         },
         {
           "name": "Roblox-AdoptMe",
+          "icon": "paw-print",
           "id": "roblox_adoptme",
           "words": [
             "Neon",
@@ -378,6 +397,7 @@
         },
         {
           "name": "Roblox-MM2",
+          "icon": "search",
           "id": "roblox_mm2",
           "words": [
             "Sheriff",
@@ -388,6 +408,7 @@
         },
         {
           "name": "Roblox-BloxFruits",
+          "icon": "cherry",
           "id": "roblox_bloxfruits",
           "words": [
             "Devil Fruit",
@@ -398,6 +419,7 @@
         },
         {
           "name": "Roblox-Tycoon",
+          "icon": "dollar-sign",
           "id": "roblox_tycoon",
           "words": [
             "Upgrade",
@@ -407,6 +429,7 @@
         },
         {
           "name": "Party",
+          "icon": "party-popper",
           "id": "party",
           "words": [
             "Among Us",
@@ -421,6 +444,7 @@
         },
         {
           "name": "Arcade",
+          "icon": "joystick",
           "id": "arcade",
           "words": [
             "Subway Surfers",
@@ -430,6 +454,7 @@
         },
         {
           "name": "Strategy",
+          "icon": "map",
           "id": "strategy",
           "words": [
             "Civilization",
@@ -446,6 +471,7 @@
         },
         {
           "name": "VR",
+          "icon": "glasses",
           "id": "vr",
           "words": [
             "Beat Saber",
@@ -462,6 +488,7 @@
         },
         {
           "name": "RPG",
+          "icon": "scroll",
           "id": "rpg",
           "words": [
             "Fallout",
@@ -477,6 +504,7 @@
         },
         {
           "name": "Sports",
+          "icon": "trophy",
           "id": "sports",
           "words": [
             "FIFA",
@@ -497,6 +525,7 @@
     },
     {
       "name": "Memes",
+      "icon": "smile",
       "id": "memes",
       "words": [
         "Rickroll",
@@ -714,6 +743,7 @@
     },
     {
       "name": "Spicy",
+      "icon": "flame",
       "id": "spicy",
       "words": [
         "Dick",
@@ -777,6 +807,7 @@
     },
     {
       "name": "Movies",
+      "icon": "clapperboard",
       "id": "movies",
       "words": [
         "La La Land",
@@ -819,10 +850,12 @@
     },
     {
       "name": "TV Shows",
+      "icon": "tv",
       "id": "tv_shows",
       "categories": [
         {
           "name": "Prestige / Serious Drama",
+          "icon": "award",
           "id": "prestige___serious_drama",
           "words": [
             "The Sopranos",
@@ -844,6 +877,7 @@
         },
         {
           "name": "Crime, Mystery & Thriller",
+          "icon": "fingerprint",
           "id": "crime,_mystery_and_thriller",
           "words": [
             "Breaking Bad",
@@ -863,6 +897,7 @@
         },
         {
           "name": "Sci-Fi, Fantasy & Epic Worlds",
+          "icon": "rocket",
           "id": "sci-fi,_fantasy_and_epic_worlds",
           "words": [
             "Game of Thrones",
@@ -883,6 +918,7 @@
         },
         {
           "name": "Comedy, Sitcoms & Late-Night",
+          "icon": "popcorn",
           "id": "comedy,_sitcoms_and_late-night",
           "words": [
             "Seinfeld",
@@ -902,6 +938,7 @@
         },
         {
           "name": "Adult Animation & Animated Comedy",
+          "icon": "pencil",
           "id": "adult_animation_and_animated_comedy",
           "words": [
             "The Simpsons",
@@ -919,6 +956,7 @@
         },
         {
           "name": "Teen / Young Adult & Social Drama",
+          "icon": "users",
           "id": "teen___young_adult_and_social_drama",
           "words": [
             "Euphoria",
@@ -934,6 +972,7 @@
         },
         {
           "name": "Action / Superhero / High-Intensity",
+          "icon": "shield-alert",
           "id": "action___superhero___high-intensity",
           "words": [
             "The Boys",
@@ -945,6 +984,7 @@
         },
         {
           "name": "Anime (Mainstream & Popular)",
+          "icon": "sparkles",
           "id": "anime_(mainstream_and_popular)",
           "words": [
             "Dragon Ball Z",
@@ -970,6 +1010,7 @@
         },
         {
           "name": "Medical / Workplace Drama & Comedy",
+          "icon": "stethoscope",
           "id": "medical___workplace_drama_and_comedy",
           "words": [
             "House",
@@ -980,6 +1021,7 @@
         },
         {
           "name": "Documentary / Reality Show",
+          "icon": "video",
           "id": "documentary___reality_show",
           "words": [
             "Love Island",
