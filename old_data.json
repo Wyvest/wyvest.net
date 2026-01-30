@@ -1,0 +1,754 @@
+{
+  "categories": [
+    {
+      "name": "Video games",
+      "icon": "Gamepad2",
+      "id": "video_games",
+      "categories": [
+        {
+          "name": "Mario",
+          "icon": "Star",
+          "id": "mario",
+          "words": [
+            "Goomba",
+            "Blue Shell",
+            "Bullet Bill",
+            "Piranha Plant",
+            "Bowser",
+            "Mushroom",
+            "Odyssey",
+            "Banana Peel",
+            "Princess Peach",
+            "Donkey Kong",
+            "Luigi",
+            "Mario Kart",
+            "Mario Party",
+            "Chris Pratt",
+            "Peaches Song",
+            "Rainbow Road"
+          ]
+        },
+        {
+          "name": "Sega",
+          "icon": "Zap",
+          "id": "sega",
+          "words": [
+            "Sonic",
+            "Knuckles"
+          ]
+        },
+        {
+          "name": "Nintendo",
+          "icon": "Gamepad",
+          "id": "nintendo",
+          "words": [
+            "Super Smash Bros",
+            "Spike",
+            "Recover",
+            "Cooldown",
+            "Edge Guard",
+            "Melee",
+            "3-Stock",
+            "Kirby",
+            "Animal Crossing",
+            "Splatoon",
+            "Nintendo Direct",
+            "Joy-Cons",
+            "Amiibo"
+          ]
+        },
+        {
+          "name": "Pokemon",
+          "icon": "CircleDot",
+          "id": "pokemon",
+          "words": [
+            "Shiny",
+            "Mewtwo",
+            "Snorlax",
+            "Lopunny",
+            "Ditto",
+            "Nurse Joy",
+            "Ash Ketchum",
+            "Gotta Catch Em All",
+            "Team Rocket",
+            "Pokeball",
+            "Evolution",
+            "Detective Pikachu",
+            "Wooper",
+            "Greninja",
+            "Professor Oak",
+            "Who\u2019s That Pok\u00e9mon",
+            "Vaporeon",
+            "Twitch",
+            "Joker"
+          ]
+        },
+        {
+          "name": "Zelda",
+          "icon": "Sword",
+          "id": "zelda",
+          "words": [
+            "Korok",
+            "Rupee",
+            "Master Sword",
+            "Ganon",
+            "Blood Moon",
+            "Shrine",
+            "Hyrule",
+            "Link",
+            "Windbomb",
+            "Divine Beasts",
+            "Zelda"
+          ]
+        },
+        {
+          "name": "Souls",
+          "icon": "Skull",
+          "id": "souls",
+          "words": [
+            "Bonfire",
+            "Hollow",
+            "Estus",
+            "Parry",
+            "Invade",
+            "You Died",
+            "No-Hit Run",
+            "Backstab",
+            "Summon Sign",
+            "Poise",
+            "Boss Fog",
+            "NG+",
+            "Dodge Roll",
+            "Git Gud",
+            "Naked Club Run"
+          ]
+        },
+        {
+          "name": "Riot",
+          "icon": "Swords",
+          "id": "riot",
+          "words": [
+            "Flash",
+            "Gank",
+            "Baron",
+            "CS",
+            "Fed",
+            "Inting",
+            "Smurf Queue",
+            "Wave Management",
+            "Split Push",
+            "Pentakill",
+            "Valorant",
+            "Spike",
+            "Eco",
+            "Operator",
+            "Wallbang",
+            "Ult",
+            "Ace",
+            "One-Tap",
+            "Lineups",
+            "Pixel Angle",
+            "Arcane"
+          ]
+        },
+        {
+          "name": "Blizzard",
+          "icon": "Snowflake",
+          "id": "blizzard",
+          "words": [
+            "Nano",
+            "Ult",
+            "Payload",
+            "Boop",
+            "Reinhardt",
+            "Grav",
+            "C9",
+            "Pocket Mercy",
+            "Spawn Camp",
+            "Dive Comp",
+            "Cinematic Trailers",
+            "Role Queue Debate",
+            "Overwatch 2 Controversy"
+          ]
+        },
+        {
+          "name": "Valve",
+          "icon": "Wrench",
+          "id": "valve",
+          "words": [
+            "Eco",
+            "Spray",
+            "AWP",
+            "Retake",
+            "Smurf",
+            "One-Tap",
+            "Pop Flash",
+            "Save Round",
+            "Clutch",
+            "VAC Ban Memes",
+            "Skin Gambling",
+            "Dust II Only",
+            "Source Spaghetti Code"
+          ]
+        },
+        {
+          "name": "BattleRoyale",
+          "icon": "Target",
+          "id": "battleroyale",
+          "words": [
+            "Fortnite",
+            "Chug Jug",
+            "Slurp Juice",
+            "Reboot Card",
+            "Shield Bubble",
+            "Storm",
+            "Build Fight",
+            "Edit Course",
+            "Box Fight",
+            "Mythic Weapon",
+            "Vaulted Gun",
+            "Zero Build",
+            "Ninja",
+            "Apex Legends",
+            "Phoenix",
+            "Drop",
+            "Third Party",
+            "Shield Cell",
+            "Heirloom",
+            "Hot Drop",
+            "Armor Swap",
+            "Zipline Dance",
+            "Red Shield",
+            "Travis Scott",
+            "Default Dance"
+          ]
+        },
+        {
+          "name": "Tactical",
+          "icon": "Crosshair",
+          "id": "tactical",
+          "words": [
+            "Valorant",
+            "Counter-Strike",
+            "Call of Duty",
+            "Prestige",
+            "Killstreak",
+            "Nuketown",
+            "Gulag",
+            "Warzone",
+            "Quickscope",
+            "Slide Cancel",
+            "Hardpoint",
+            "Dead Silence",
+            "Controller vs Keyboard Debate",
+            "CSGO",
+            "GW2"
+          ]
+        },
+        {
+          "name": "Sandbox",
+          "icon": "Box",
+          "id": "sandbox",
+          "words": [
+            "Minecraft",
+            "Creeper",
+            "Redstone",
+            "Nether",
+            "Elytra",
+            "Enderman",
+            "Steve",
+            "Chicken Jockey",
+            "Dream",
+            "Technoblade",
+            "Totem of Undying",
+            "Hardcore World",
+            "AFK Farm",
+            "Seed",
+            "Bed Explosion",
+            "Pearl",
+            "Terraria",
+            "Worm",
+            "Hardcore",
+            "Chlorophyte",
+            "Plantera",
+            "Wall of Flesh",
+            "Boss Arena",
+            "Moon Lord",
+            "Calamity",
+            "SMP",
+            "Speedrun Drama",
+            "Jack Black",
+            "Lava Chicken",
+            "Cross Roads"
+          ]
+        },
+        {
+          "name": "Indie",
+          "icon": "Sprout",
+          "id": "indie",
+          "words": [
+            "Genocide",
+            "Pacifist",
+            "Sans",
+            "Karma",
+            "Papyrus",
+            "Reset Route",
+            "Soul-Less Pacifist",
+            "Failed Genocide",
+            "True Pacifist",
+            "Bravery",
+            "Integrity",
+            "Patience",
+            "Kindness",
+            "Perseverance",
+            "Justice",
+            "Determination",
+            "Hollow Knight",
+            "Silksong",
+            "Geo",
+            "Charm",
+            "Shade",
+            "Dreamnail",
+            "White Palace",
+            "Path of Pain",
+            "Bench"
+          ]
+        },
+        {
+          "name": "Mobile",
+          "icon": "Smartphone",
+          "id": "mobile",
+          "words": [
+            "Pancakes",
+            "Elixir",
+            "Hog",
+            "Log Bait",
+            "Cycle",
+            "Mega Knight",
+            "X-Bow",
+            "2.6",
+            "Value",
+            "Overleveled",
+            "Jynxi",
+            "No Skill",
+            "Genshin Impact",
+            "Resin",
+            "Wish",
+            "Primogems",
+            "Artifact",
+            "Pity",
+            "50/50",
+            "Spiral Abyss",
+            "Goblin",
+            "Skeleton",
+            "PVZ"
+          ]
+        },
+        {
+          "name": "Roblox",
+          "icon": "Bot",
+          "id": "roblox",
+          "words": [
+            "Obby",
+            "Robux",
+            "Spin a Baddie",
+            "Blox Fruits",
+            "Adopt Me",
+            "Doors",
+            "BedWars",
+            "Murder Mystery",
+            "Pooping Pigeons",
+            "Helen Keller"
+          ]
+        },
+        {
+          "name": "Roblox-Doors",
+          "icon": "DoorOpen",
+          "id": "roblox_doors",
+          "words": [
+            "Rush",
+            "Ambush",
+            "Figure",
+            "Seek",
+            "Screech"
+          ]
+        },
+        {
+          "name": "Roblox-BedWars",
+          "icon": "Bed",
+          "id": "roblox_bedwars",
+          "words": [
+            "Generator",
+            "Emeralds",
+            "Rushing",
+            "Clutch"
+          ]
+        },
+        {
+          "name": "Roblox-AdoptMe",
+          "icon": "PawPrint",
+          "id": "roblox_adoptme",
+          "words": [
+            "Neon",
+            "Mega",
+            "Pets",
+            "Trading"
+          ]
+        },
+        {
+          "name": "Roblox-MM2",
+          "icon": "Search",
+          "id": "roblox_mm2",
+          "words": [
+            "Sheriff",
+            "Knife",
+            "Gun",
+            "Innocent"
+          ]
+        },
+        {
+          "name": "Roblox-BloxFruits",
+          "icon": "Cherry",
+          "id": "roblox_bloxfruits",
+          "words": [
+            "Devil Fruit",
+            "Logia",
+            "Awakening",
+            "Grinding"
+          ]
+        },
+        {
+          "name": "Roblox-Tycoon",
+          "icon": "DollarSign",
+          "id": "roblox_tycoon",
+          "words": [
+            "Upgrade",
+            "Conveyor",
+            "AFK Money"
+          ]
+        },
+        {
+          "name": "Party",
+          "icon": "PartyPopper",
+          "id": "party",
+          "words": [
+            "Among Us",
+            "Vent",
+            "Sus",
+            "Impostor",
+            "Sabotage",
+            "Medbay",
+            "Emergency Meeting",
+            "Self Report"
+          ]
+        },
+        {
+          "name": "Arcade",
+          "icon": "Joystick",
+          "id": "arcade",
+          "words": [
+            "Subway Surfers",
+            "Geometry Dash",
+            "Pac-Man"
+          ]
+        },
+        {
+          "name": "Strategy",
+          "icon": "Map",
+          "id": "strategy",
+          "words": [
+            "Civilization",
+            "Science Victory",
+            "Culture Victory",
+            "Domination Victory",
+            "Gandhi Nuke Meme",
+            "Plague Inc",
+            "Patient Zero",
+            "DNA Points",
+            "World Map",
+            "Greenland"
+          ]
+        },
+        {
+          "name": "VR",
+          "icon": "Glasses",
+          "id": "vr",
+          "words": [
+            "Beat Saber",
+            "Gorilla Tag",
+            "Half-Life Alyx",
+            "VRChat",
+            "Boneworks",
+            "Blade and Sorcery",
+            "Superhot VR",
+            "Rec Room",
+            "Pavlov",
+            "Job Simulator"
+          ]
+        },
+        {
+          "name": "RPG",
+          "icon": "Scroll",
+          "id": "rpg",
+          "words": [
+            "Fallout",
+            "Vault Boy",
+            "Pip-Boy",
+            "S.P.E.C.I.A.L.",
+            "Nuka-Cola",
+            "Radiation",
+            "Power Armor",
+            "Wasteland",
+            "Brotherhood of Steel"
+          ]
+        },
+        {
+          "name": "Sports",
+          "icon": "Trophy",
+          "id": "sports",
+          "words": [
+            "FIFA",
+            "EA FC",
+            "Ultimate Team",
+            "FUT Champs",
+            "NBA 2K",
+            "MyCareer",
+            "Park",
+            "VC",
+            "Rocket League",
+            "Octane",
+            "Aerial",
+            "Flip Reset"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Movies",
+      "icon": "Clapperboard",
+      "id": "movies",
+      "words": [
+        "La La Land",
+        "21 Jump Street",
+        "The Lego Movie",
+        "The Lego Batman Movie",
+        "Tron: Legacy",
+        "Roofman",
+        "Barbie",
+        "Trolls",
+        "The Grand Budapest Hotel",
+        "Yes Man",
+        "The Invention of Lying",
+        "The Big Short",
+        "American Psycho",
+        "The Wolf of Wall Street",
+        "Click",
+        "The Cat in the Hat",
+        "Sausage Party",
+        "Easy A",
+        "The Fall Guy",
+        "Baywatch",
+        "I Now Pronounce You Chuck & Larry",
+        "Free Guy",
+        "Once Upon a Time... in Hollywood",
+        "The 40-Year-Old Virgin",
+        "Love and Other Drugs",
+        "Scary Movie",
+        "Cast Away",
+        "The Terminal",
+        "Smile",
+        "Scream",
+        "A Minecraft Movie",
+        "The Super Mario Bros. Movie",
+        "Wonka",
+        "Trolls",
+        "The Boxtrolls",
+        "Paddington"
+      ]
+    },
+    {
+      "name": "TV Shows",
+      "icon": "Tv",
+      "id": "tv_shows",
+      "categories": [
+        {
+          "name": "Prestige / Serious Drama",
+          "icon": "Award",
+          "id": "prestige___serious_drama",
+          "words": [
+            "The Sopranos",
+            "The Wire",
+            "Mad Men",
+            "Breaking Bad",
+            "Better Call Saul",
+            "Six Feet Under",
+            "Succession",
+            "Chernobyl",
+            "House of Cards",
+            "The Handmaid\u2019s Tale",
+            "True Detective",
+            "Fargo",
+            "Narcos",
+            "Peaky Blinders",
+            "The Queen\u2019s Gambit"
+          ]
+        },
+        {
+          "name": "Crime, Mystery & Thriller",
+          "icon": "Fingerprint",
+          "id": "crime,_mystery_and_thriller",
+          "words": [
+            "Breaking Bad",
+            "Better Call Saul",
+            "Dexter",
+            "CSI: Crime Scene Investigation",
+            "True Detective",
+            "Fargo",
+            "Sherlock",
+            "House of Cards",
+            "Narcos",
+            "Peaky Blinders",
+            "The X-Files",
+            "Twin Peaks",
+            "Black Mirror"
+          ]
+        },
+        {
+          "name": "Sci-Fi, Fantasy & Epic Worlds",
+          "icon": "Rocket",
+          "id": "sci-fi,_fantasy_and_epic_worlds",
+          "words": [
+            "Game of Thrones",
+            "Star Trek",
+            "Westworld",
+            "Lost",
+            "Lost in Space",
+            "3 Body Problem",
+            "Stranger Things",
+            "Avatar: The Last Airbender",
+            "The Walking Dead",
+            "The Handmaid\u2019s Tale",
+            "Black Mirror",
+            "Blue Planet II",
+            "Cyberpunk: Edgerunners",
+            "Attack on Titan"
+          ]
+        },
+        {
+          "name": "Comedy, Sitcoms & Late-Night",
+          "icon": "Popcorn",
+          "id": "comedy,_sitcoms_and_late-night",
+          "words": [
+            "Seinfeld",
+            "The Office (US)",
+            "Friends",
+            "The Big Bang Theory",
+            "Brooklyn Nine-Nine",
+            "Community",
+            "Curb Your Enthusiasm",
+            "Full House",
+            "Malcolm in the Middle",
+            "How I Met Your Mother",
+            "Modern Family",
+            "Saturday Night Live",
+            "The Daily Show"
+          ]
+        },
+        {
+          "name": "Adult Animation & Animated Comedy",
+          "icon": "Pencil",
+          "id": "adult_animation_and_animated_comedy",
+          "words": [
+            "The Simpsons",
+            "South Park",
+            "Rick and Morty",
+            "Family Guy",
+            "American Dad",
+            "BoJack Horseman",
+            "Big Mouth",
+            "The Boondocks",
+            "Futurama",
+            "Regular Show",
+            "Samurai Jack"
+          ]
+        },
+        {
+          "name": "Teen / Young Adult & Social Drama",
+          "icon": "Users",
+          "id": "teen___young_adult_and_social_drama",
+          "words": [
+            "Euphoria",
+            "Wednesday",
+            "Gossip Girl",
+            "Sex and the City",
+            "Bridgerton",
+            "Pretty Little Liars",
+            "Gilmore Girls",
+            "Love Island",
+            "Orange Is the New Black"
+          ]
+        },
+        {
+          "name": "Action / Superhero / High-Intensity",
+          "icon": "ShieldAlert",
+          "id": "action___superhero___high-intensity",
+          "words": [
+            "The Boys",
+            "Invincible",
+            "Arcane",
+            "The Walking Dead",
+            "Stranger Things"
+          ]
+        },
+        {
+          "name": "Anime (Mainstream & Popular)",
+          "icon": "Sparkles",
+          "id": "anime_(mainstream_and_popular)",
+          "words": [
+            "Dragon Ball Z",
+            "Naruto",
+            "Naruto Shippuden",
+            "One Piece",
+            "Bleach",
+            "Pok\u00e9mon",
+            "Attack on Titan",
+            "Demon Slayer",
+            "Jujutsu Kaisen",
+            "My Hero Academia",
+            "Chainsaw Man",
+            "Spy x Family",
+            "Blue Lock",
+            "Death Note",
+            "Neon Genesis Evangelion",
+            "Dr. Stone",
+            "Hunter x Hunter",
+            "JoJo\u2019s Bizarre Adventure",
+            "Frieren"
+          ]
+        },
+        {
+          "name": "Medical / Workplace Drama & Comedy",
+          "icon": "Stethoscope",
+          "id": "medical___workplace_drama_and_comedy",
+          "words": [
+            "House",
+            "Grey\u2019s Anatomy",
+            "The Bear",
+            "Suits"
+          ]
+        },
+        {
+          "name": "Documentary / Reality Show",
+          "icon": "Video",
+          "id": "documentary___reality_show",
+          "words": [
+            "Love Island",
+            "Blue Planet II",
+            "Alien Worlds",
+            "The Kardashians"
+          ]
+        }
+      ]
+    }
+  ]
+}
