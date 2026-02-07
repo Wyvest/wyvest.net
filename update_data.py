@@ -2,31 +2,60 @@ import json, re, os
 
 ICON_MAP = {
     'video_games': 'Gamepad2', 'movies': 'Clapperboard', 'tv_shows': 'Tv', 'memes': 'Laugh', 'people': 'Users',
-    'mario_universe': 'Star', 'super_smash_bros': 'Gamepad', 'pokemon': 'CircleDot', 'pokmon': 'CircleDot',
-    'zelda': 'Sword', 'shooter': 'Crosshair', 'fortnite': 'Target', 'minecraft': 'Box', 'indie_horror': 'Sprout',
-    'brawl_stars': 'Swords', 'clash_royal': 'Crown', 'mobile_arcade': 'Smartphone', 'roblox': 'Bot', 'vr': 'Glasses',
-    'playstation_games': 'Gamepad2', 'generational': 'Clock', 'characters': 'Users', 'brainrot': 'Zap',
-    'comedy': 'Popcorn', 'cinephile_favs': 'Award', 'marveldc': 'ShieldAlert', 'scifi_fantasy': 'Rocket',
+    'countries': 'Globe', 'school': 'GraduationCap', 'sports': 'Trophy', 'animals': 'PawPrint', 'characters': 'Users',
+    'mario_universe': 'Star', 'super_smash_bros': 'Gamepad', 'pok_mon': 'CircleDot',
+    'zelda': 'Sword', 'shooter': 'Crosshair', 'fortnite': 'Target', 'minecraft': 'Box',
+    'indie_horror': 'Ghost', 'brawl_stars': 'Swords', 'clash_royal': 'Crown',
+    'mobile_arcade': 'Gamepad', 'roblox': 'Bot', 'vr': 'Glasses', 'playstation_games': 'Gamepad2',
+    'generational': 'Clock', 'brainrot': 'Zap',
+    'comedy': 'Popcorn', 'cinephile_favs': 'Award', 'marvel_dc': 'ShieldAlert',
+    'sci_fi_fantasy': 'Rocket', 'scifi_fantasy': 'Rocket',
     'horror': 'Skull', 'animated': 'Pencil', 'game_adaptations': 'Gamepad', 'book_adaptations': 'BookOpen',
     'action_thriller': 'Target', 'drama': 'Award', 'crime_mystery': 'Fingerprint', 'animation': 'Pencil',
     'anime': 'Sparkles', 'teen_girls': 'Heart', 'kids': 'Baby', 'reality_documentary': 'Video',
     'social_media': 'Smartphone', 'musicians': 'Music', 'actors_directors': 'Camera', 'athletes': 'Trophy',
-    'politicians': 'Flag', 'historical_figures': 'Scroll', 'tech_icons': 'Cpu', 'artists_writer': 'Palette',
+    'politicians': 'Flag', 'historical_figures': 'Scroll', 'tech_icons': 'Cpu',
+    'artists_writer': 'Palette', 'controversial': 'Flame',
+    'disney_pixar': 'Castle', 'star_wars': 'Sword', 'wizarding_world': 'Zap', 'dreamworks_illumination': 'Moon',
+    'netflix_prime': 'Tv', 'subjects': 'Book', 'colleges': 'School', 'extracurriculars': 'Activity',
+    'stereotypes': 'Theater', 'stem': 'FlaskConical', 'basketball': 'Dribbble', 'football': 'Trophy',
+    'soccer': 'Activity', 'net_sports': 'TableTennis', 'water_sports': 'Waves', 'combat_sports': 'Swords',
+    'baseball': 'Activity', 'other': 'Plus', 'mammals': 'Dog', 'cold_blooded_animals': 'ThermometerSnowflake',
+    'underwater': 'Fish', 'bugs': 'Bug', 'flying': 'Bird',
+    'india': 'Flower', 'china': 'Wind', 'united_states': 'Landmark', 'latin_america': 'Music',
+    'russia': 'Snowflake', 'japan': 'Mountain', 'italy': 'Pizza', 'france': 'Wine',
+    'spain': 'Flame', 'south_korea': 'Smartphone', 'uae': 'Building', 'canada': 'Leaf',
+    'uk': 'Crown', 'africa': 'PalmTree'
 }
 
 NAME_FIXES = {
-    'video_games': 'Video Games', 'pokmon': 'Pokémon', 'pokemon': 'Pokémon', 'super_smash_bros': 'Super Smash Bros.',
-    'indie_horror': 'Indie/Horror', 'clash_royal': 'Clash Royale', 'mobile_arcade': 'Mobile/Arcade',
-    'playstation_games': 'PlayStation Games', 'scifi_fantasy': 'Sci-Fi/Fantasy', 'crime_mystery': 'Crime/Mystery',
-    'teen_girls': 'Teen Girls', 'reality_documentary': 'Reality/Documentary', 'marveldc': 'Marvel+DC',
+    'video_games': 'Video Games', 'pok_mon': 'Pokémon', 'super_smash_bros': 'Super Smash Bros.',
+    'indie_horror': 'Indie/Horror', 'clash_royal': 'Clash Royale',
+    'mobile_arcade': 'Mobile/Arcade',
+    'playstation_games': 'PlayStation Games', 'scifi_fantasy': 'Sci-Fi/Fantasy', 'sci_fi_fantasy': 'Sci-Fi/Fantasy',
+    'crime_mystery': 'Crime/Mystery',
+    'teen_girls': 'Teen Girls', 'reality_documentary': 'Reality/Documentary', 'marvel_dc': 'Marvel + DC',
     'action_thriller': 'Action/Thriller', 'game_adaptations': 'Game Adaptations', 'book_adaptations': 'Book Adaptations',
-    'cinephile_favs': 'Cinephile Favorites',
+    'cinephile_favs': 'Cinephile Favorites', 'artists_writer': 'Artists/Writers', 'disney_pixar': 'Disney & Pixar',
+    'dreamworks_illumination': 'DreamWorks & Illumination', 'netflix_prime': 'Netflix & Prime'
 }
 
 def gid(n):
-    n = n.strip().lower().replace('&', 'and').replace('/', '_').replace('-', '_')
-    n = re.sub(r'[^a-z0-9\s_]', '', n)
-    return re.sub(r'\s+', '_', n)
+    n = n.strip().lower().replace('&', 'and')
+    n = re.sub(r'[^a-z0-9]', '_', n)
+    return re.sub(r'_+', '_', n).strip('_')
+
+USED_IDS = set()
+
+def get_unique_id(name):
+    base_id = gid(name)
+    cid = base_id
+    counter = 1
+    while cid in USED_IDS:
+        cid = f"{base_id}_{counter}"
+        counter += 1
+    USED_IDS.add(cid)
+    return cid, base_id
 
 def clean(w):
     w = re.sub(r'\[.*?\]', '', w)
@@ -43,11 +72,12 @@ def parse(path):
         content = f.read().replace("Sci-Fi/ Fantasy", "Sci-Fi/Fantasy")
     parts = re.split(r'^(.*?) \(CATEGORY\):', content, flags=re.MULTILINE)
     res = []
+    USED_IDS.clear()
     for i in range(1, len(parts), 2):
         name, body = parts[i].strip(), parts[i+1].strip()
-        cid = gid(name)
-        obj = {"name": NAME_FIXES.get(cid, name), "id": cid}
-        if cid in ICON_MAP: obj["icon"] = ICON_MAP[cid]
+        cid, base_id = get_unique_id(name)
+        obj = {"name": NAME_FIXES.get(base_id, name), "id": cid}
+        if base_id in ICON_MAP: obj["icon"] = ICON_MAP[base_id]
         lines = [l.strip() for l in body.split('\n') if l.strip()]
         subs, cur = [], None
         for l in lines:
@@ -55,17 +85,17 @@ def parse(path):
                 if cur: subs.append(cur)
                 cur = None
                 p = l.split(':', 1)
-                sid = gid(p[0])
+                sid, s_base_id = get_unique_id(p[0])
                 words = split_words(p[1])
-                s_obj = {"name": NAME_FIXES.get(sid, p[0].strip()), "id": sid, "words": words}
-                if sid in ICON_MAP: s_obj["icon"] = ICON_MAP[sid]
+                s_obj = {"name": NAME_FIXES.get(s_base_id, p[0].strip()), "id": sid, "words": words}
+                if s_base_id in ICON_MAP: s_obj["icon"] = ICON_MAP[s_base_id]
                 subs.append(s_obj)
             elif ',' not in l:
                 if cur: subs.append(cur)
                 sn = l.replace(':', '').strip()
-                sid = gid(sn)
-                cur = {"name": NAME_FIXES.get(sid, sn), "id": sid, "words": []}
-                if sid in ICON_MAP: cur["icon"] = ICON_MAP[sid]
+                sid, s_base_id = get_unique_id(sn)
+                cur = {"name": NAME_FIXES.get(s_base_id, sn), "id": sid, "words": []}
+                if s_base_id in ICON_MAP: cur["icon"] = ICON_MAP[s_base_id]
             else:
                 words = split_words(l)
                 if cur: cur["words"].extend(words)

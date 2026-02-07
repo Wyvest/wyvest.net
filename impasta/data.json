@@ -124,7 +124,7 @@
         },
         {
           "name": "Pokémon",
-          "id": "pokmon",
+          "id": "pok_mon",
           "words": [
             "Pikachu",
             "Charizard",
@@ -319,8 +319,8 @@
           "icon": "Box"
         },
         {
-          "name": "Indie/ Horror",
-          "id": "indie__horror",
+          "name": "Indie/Horror",
+          "id": "indie_horror",
           "words": [
             "Hollow Knight",
             "Rain World",
@@ -343,7 +343,8 @@
             "Escape The Backrooms",
             "Liminal Space",
             "Roblox Doors"
-          ]
+          ],
+          "icon": "Ghost"
         },
         {
           "name": "Brawl Stars",
@@ -443,8 +444,8 @@
           "icon": "Crown"
         },
         {
-          "name": "Mobile / Arcade",
-          "id": "mobile___arcade",
+          "name": "Mobile/Arcade",
+          "id": "mobile_arcade",
           "words": [
             "Genshin Impact",
             "Plants Vs. Zombies",
@@ -496,7 +497,8 @@
             "Fallout Shelter",
             "League Of Legends",
             "Coolmathgames"
-          ]
+          ],
+          "icon": "Gamepad"
         },
         {
           "name": "Roblox",
@@ -1074,8 +1076,8 @@
           "icon": "Award"
         },
         {
-          "name": "Marvel+DC",
-          "id": "marveldc",
+          "name": "Marvel + DC",
+          "id": "marvel_dc",
           "words": [
             "Iron Man",
             "The Incredible Hulk",
@@ -1180,7 +1182,8 @@
             "Oblivion",
             "Edge Of Tomorrow",
             "Valerian And The City Of A Thousand Planets"
-          ]
+          ],
+          "icon": "Rocket"
         },
         {
           "name": "Horror",
@@ -1499,7 +1502,7 @@
         },
         {
           "name": "Comedy",
-          "id": "comedy",
+          "id": "comedy_1",
           "words": [
             "Seinfeld",
             "The Office (US)",
@@ -2080,8 +2083,8 @@
           "icon": "Cpu"
         },
         {
-          "name": "Artists/ Writer",
-          "id": "artists__writer",
+          "name": "Artists/Writers",
+          "id": "artists_writer",
           "words": [
             "Andy Warhol",
             "Banksy",
@@ -2108,7 +2111,8 @@
             "Charles Dickens",
             "Ernest Hemingway",
             "Stan Lee"
-          ]
+          ],
+          "icon": "Palette"
         },
         {
           "name": "Controversial",
@@ -2162,13 +2166,15 @@
             "Bill Gates",
             "Trump",
             "Banksy"
-          ]
+          ],
+          "icon": "Flame"
         }
       ]
     },
     {
       "name": "Countries",
       "id": "countries",
+      "icon": "Globe",
       "categories": [
         {
           "name": "India",
@@ -2204,7 +2210,8 @@
             "Naan",
             "Curry",
             "Arranged Marriage"
-          ]
+          ],
+          "icon": "Flower"
         },
         {
           "name": "China",
@@ -2260,7 +2267,8 @@
             "Tofu",
             "Draco Malfoy",
             "Temu"
-          ]
+          ],
+          "icon": "Wind"
         },
         {
           "name": "United States",
@@ -2372,7 +2380,8 @@
             "Border",
             "NASCAR",
             "ICE"
-          ]
+          ],
+          "icon": "Landmark"
         },
         {
           "name": "Latin America",
@@ -2453,7 +2462,8 @@
             "Reggaeton",
             "Bad Bunny",
             "Cuba"
-          ]
+          ],
+          "icon": "Music"
         },
         {
           "name": "Russia",
@@ -2483,7 +2493,8 @@
             "Nutcracker",
             "Joseph Stalin",
             "Rasputin"
-          ]
+          ],
+          "icon": "Snowflake"
         },
         {
           "name": "Japan",
@@ -2529,7 +2540,8 @@
             "Kimono",
             "Spa",
             "Vending Machines"
-          ]
+          ],
+          "icon": "Mountain"
         },
         {
           "name": "Italy",
@@ -2561,7 +2573,8 @@
             "Mafia",
             "Khaby Lame",
             "Gucci"
-          ]
+          ],
+          "icon": "Pizza"
         },
         {
           "name": "France",
@@ -2588,7 +2601,8 @@
             "French Fries",
             "Catacombs",
             "Marie Curie"
-          ]
+          ],
+          "icon": "Wine"
         },
         {
           "name": "Spain",
@@ -2619,7 +2633,8 @@
             "Rafael Nadal",
             "Pablo Picasso",
             "Salvador Dalí"
-          ]
+          ],
+          "icon": "Flame"
         },
         {
           "name": "South Korea",
@@ -2653,7 +2668,8 @@
             "Taekwondo",
             "Hyundai",
             "Mukbang"
-          ]
+          ],
+          "icon": "Smartphone"
         },
         {
           "name": "UAE",
@@ -2690,7 +2706,8 @@
             "Emirates Airlines",
             "Etihad Airlines",
             "ADNOC"
-          ]
+          ],
+          "icon": "Building"
         },
         {
           "name": "Canada",
@@ -2718,7 +2735,8 @@
             "Jim Carrey",
             "Keanu Reeves",
             "Inuit"
-          ]
+          ],
+          "icon": "Leaf"
         },
         {
           "name": "UK",
@@ -2769,7 +2787,8 @@
             "Tom Holland",
             "Emma Watson",
             "British Museum"
-          ]
+          ],
+          "icon": "Crown"
         },
         {
           "name": "Africa",
@@ -2803,13 +2822,15 @@
             "Zimbabwe",
             "Fufu",
             "Maasai"
-          ]
+          ],
+          "icon": "PalmTree"
         }
       ]
     },
     {
       "name": "School",
       "id": "school",
+      "icon": "GraduationCap",
       "categories": [
         {
           "name": "Subjects",
@@ -2868,7 +2889,8 @@
             "German",
             "Italian",
             "Russian"
-          ]
+          ],
+          "icon": "Book"
         },
         {
           "name": "Colleges",
@@ -2909,7 +2931,8 @@
             "Study Abroad",
             "Commencement",
             "Alumni"
-          ]
+          ],
+          "icon": "School"
         },
         {
           "name": "Extracurriculars",
@@ -2947,7 +2970,8 @@
             "Ivy Summer Camp",
             "Co-Write Research Paper",
             "Intern At A Lab"
-          ]
+          ],
+          "icon": "Activity"
         },
         {
           "name": "Stereotypes",
@@ -3000,7 +3024,8 @@
             "Quirky Science Teacher",
             "Peak Coach",
             "The Substitute"
-          ]
+          ],
+          "icon": "Theater"
         },
         {
           "name": "STEM",
@@ -3055,13 +3080,15 @@
             "JavaScript",
             "Python",
             "Scratch"
-          ]
+          ],
+          "icon": "FlaskConical"
         }
       ]
     },
     {
       "name": "Sports",
       "id": "sports",
+      "icon": "Trophy",
       "categories": [
         {
           "name": "Basketball",
@@ -3118,7 +3145,8 @@
             "Brick",
             "March Madness",
             "Charlotte Hornets"
-          ]
+          ],
+          "icon": "Dribbble"
         },
         {
           "name": "Football",
@@ -3168,7 +3196,8 @@
             "Pass Interference",
             "Fantasy Football",
             "Madden"
-          ]
+          ],
+          "icon": "Trophy"
         },
         {
           "name": "Soccer",
@@ -3213,7 +3242,8 @@
             "Header",
             "Handball",
             "Cleats"
-          ]
+          ],
+          "icon": "Activity"
         },
         {
           "name": "Net Sports",
@@ -3256,7 +3286,8 @@
             "Yonex",
             "Prince",
             "Ben Shelton"
-          ]
+          ],
+          "icon": "TableTennis"
         },
         {
           "name": "Water Sports",
@@ -3292,7 +3323,8 @@
             "Jet Ski",
             "Freediving",
             "Snorkeling"
-          ]
+          ],
+          "icon": "Waves"
         },
         {
           "name": "Combat Sports",
@@ -3332,7 +3364,8 @@
             "Vince McMahon",
             "UFC",
             "WWE"
-          ]
+          ],
+          "icon": "Swords"
         },
         {
           "name": "Baseball",
@@ -3364,7 +3397,8 @@
             "Philadelphia Phillies",
             "Fenway Park",
             "MLB"
-          ]
+          ],
+          "icon": "Activity"
         },
         {
           "name": "Other",
@@ -3433,13 +3467,15 @@
             "Usain Bolt",
             "David Goggins",
             "Sunisa Lee"
-          ]
+          ],
+          "icon": "Plus"
         }
       ]
     },
     {
       "name": "Animals",
       "id": "animals",
+      "icon": "PawPrint",
       "categories": [
         {
           "name": "Mammals",
@@ -3510,7 +3546,8 @@
             "Porcupine",
             "Water Buffalo",
             "Human"
-          ]
+          ],
+          "icon": "Dog"
         },
         {
           "name": "Cold-Blooded Animals",
@@ -3539,7 +3576,8 @@
             "Newt",
             "Salamander",
             "Axolotl"
-          ]
+          ],
+          "icon": "ThermometerSnowflake"
         },
         {
           "name": "Underwater",
@@ -3597,7 +3635,8 @@
             "Polar Bear",
             "Piranha",
             "Blobfish"
-          ]
+          ],
+          "icon": "Fish"
         },
         {
           "name": "Bugs",
@@ -3643,7 +3682,8 @@
             "Maggot",
             "Firefly",
             "Roly Poly"
-          ]
+          ],
+          "icon": "Bug"
         },
         {
           "name": "Flying",
@@ -3677,18 +3717,19 @@
             "Fly",
             "Firefly",
             "Falcon"
-          ]
+          ],
+          "icon": "Bird"
         }
       ]
     },
     {
       "name": "Characters",
-      "id": "characters",
+      "id": "characters_1",
       "icon": "Users",
       "categories": [
         {
-          "name": "Disney+Pixar",
-          "id": "disneypixar",
+          "name": "Disney & Pixar",
+          "id": "disney_pixar",
           "words": [
             "Mickey Mouse",
             "Donald Duck",
@@ -3743,11 +3784,12 @@
             "Mei",
             "Wreck-It Ralph",
             "Fix-It Felix"
-          ]
+          ],
+          "icon": "Castle"
         },
         {
-          "name": "Marvel+DC",
-          "id": "marveldc",
+          "name": "Marvel + DC",
+          "id": "marvel_dc_1",
           "words": [
             "Spider-Man",
             "Miles Morales",
@@ -3852,7 +3894,8 @@
             "Kylo Ren",
             "BB-8",
             "Jar Jar Binks"
-          ]
+          ],
+          "icon": "Sword"
         },
         {
           "name": "Wizarding World",
@@ -3877,11 +3920,12 @@
             "Sauron",
             "Dudley",
             "Buckbeak"
-          ]
+          ],
+          "icon": "Zap"
         },
         {
-          "name": "DreamWorks+Illumination",
-          "id": "dreamworksillumination",
+          "name": "DreamWorks & Illumination",
+          "id": "dreamworks_illumination",
           "words": [
             "Shrek",
             "Donkey",
@@ -3939,11 +3983,12 @@
             "Bowser",
             "Toad",
             "Donkey Kong"
-          ]
+          ],
+          "icon": "Moon"
         },
         {
           "name": "Anime",
-          "id": "anime",
+          "id": "anime_1",
           "words": [
             "Naruto Uzumaki",
             "Sasuke Uchiha",
@@ -3981,8 +4026,8 @@
           "icon": "Sparkles"
         },
         {
-          "name": "Netflix+Prime",
-          "id": "netflixprime",
+          "name": "Netflix & Prime",
+          "id": "netflix_prime",
           "words": [
             "Eleven",
             "Mike Wheeler",
@@ -4001,11 +4046,12 @@
             "Lucas Sinclair",
             "Jinx",
             "Thing (Wednesday)"
-          ]
+          ],
+          "icon": "Tv"
         },
         {
           "name": "Horror",
-          "id": "horror",
+          "id": "horror_1",
           "words": [
             "Michael Myers",
             "Ghostface",
@@ -4042,7 +4088,7 @@
         },
         {
           "name": "Comedy",
-          "id": "comedy",
+          "id": "comedy_2",
           "words": [
             "SpongeBob SquarePants",
             "Patrick Star",
