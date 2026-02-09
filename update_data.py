@@ -106,9 +106,58 @@ def parse(path):
         res.append(obj)
     return res
 
+def preserve_properties(old_data, new_data):
+    """Preserve manually-added properties like disabledByDefault from old data into new data."""
+    if not old_data or 'categories' not in old_data:
+        return new_data
+    
+    # Create a map of old categories by ID for quick lookup
+    old_map = {}
+    def build_map(cats, path=''):
+        for cat in cats:
+            cat_id = cat.get('id', '')
+            old_map[cat_id] = cat
+            if 'categories' in cat:
+                build_map(cat['categories'], path + cat_id + '/')
+    
+    build_map(old_data['categories'])
+    
+    # Restore properties to new data
+    def restore_props(cats):
+        for cat in cats:
+            cat_id = cat.get('id', '')
+            if cat_id in old_map:
+                old_cat = old_map[cat_id]
+                # Preserve disabledByDefault if it exists
+                if 'disabledByDefault' in old_cat:
+                    cat['disabledByDefault'] = old_cat['disabledByDefault']
+            if 'categories' in cat:
+                restore_props(cat['categories'])
+    
+    restore_props(new_data['categories'])
+    return new_data
+
 if __name__ == "__main__":
     d = os.path.dirname(__file__)
+    data_path = os.path.join(d, 'impasta', 'data.json')
+    
+    # Load existing data to preserve manual properties
+    old_data = None
+    if os.path.exists(data_path):
+        try:
+            with open(data_path, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+        except:
+            pass
+    
+    # Parse new data from lol.txt
     res = parse(os.path.join(d, 'impasta', 'lol.txt'))
-    with open(os.path.join(d, 'impasta', 'data.json'), 'w', encoding='utf-8') as f:
-        json.dump({"categories": res}, f, indent=2, ensure_ascii=False)
+    new_data = {"categories": res}
+    
+    # Preserve properties from old data
+    new_data = preserve_properties(old_data, new_data)
+    
+    # Write updated data
+    with open(data_path, 'w', encoding='utf-8') as f:
+        json.dump(new_data, f, indent=2, ensure_ascii=False)
     print("Updated")

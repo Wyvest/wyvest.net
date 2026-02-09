@@ -202,7 +202,8 @@
             "Ocarina Of Time",
             "Majora’s Mask"
           ],
-          "icon": "Sword"
+          "icon": "Sword",
+          "disabledByDefault": true
         },
         {
           "name": "Shooter",
@@ -228,7 +229,8 @@
             "War Robots",
             "Splatoon"
           ],
-          "icon": "Crosshair"
+          "icon": "Crosshair",
+          "disabledByDefault": true
         },
         {
           "name": "Fortnite",
@@ -344,7 +346,8 @@
             "Liminal Space",
             "Roblox Doors"
           ],
-          "icon": "Ghost"
+          "icon": "Ghost",
+          "disabledByDefault": true
         },
         {
           "name": "Brawl Stars",
@@ -549,7 +552,8 @@
             "Pavlov",
             "Job Simulator"
           ],
-          "icon": "Glasses"
+          "icon": "Glasses",
+          "disabledByDefault": true
         },
         {
           "name": "PlayStation Games",
@@ -589,7 +593,8 @@
             "Astro Bot",
             "Fallout"
           ],
-          "icon": "Gamepad2"
+          "icon": "Gamepad2",
+          "disabledByDefault": true
         }
       ]
     },
@@ -1073,7 +1078,8 @@
             "Bullet Train",
             "Get Out"
           ],
-          "icon": "Award"
+          "icon": "Award",
+          "disabledByDefault": true
         },
         {
           "name": "Marvel + DC",
@@ -2975,9 +2981,9 @@
             "Cancer Research Foundation",
             "STEM Education Nonprofit",
             "Coding For Kids Program",
-            "Teaching English To A Third-World Country",
+            "Teaching English To A Third-World Country ",
             "Robotics Club",
-            "Speech And Debate",
+            "Speech And Debate ",
             "Model UN",
             "School Newspaper",
             "Organized Protest",
@@ -3021,7 +3027,6 @@
             "The Annoying Kid That Follows You",
             "The Hallway Crush",
             "The Unexpected Rich Kid",
-            "The Show-Off",
             "The Shy Guy",
             "The President",
             "Mean But Somehow Popular",
