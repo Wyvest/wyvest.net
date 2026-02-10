@@ -666,7 +666,8 @@
             "Japan",
             "Boss Baby"
           ],
-          "icon": "Clock"
+          "icon": "Clock",
+          "disabledByDefault": true
         },
         {
           "name": "Characters",
@@ -1594,7 +1595,8 @@
             "One Punch Man",
             "Detective Conan"
           ],
-          "icon": "Sparkles"
+          "icon": "Sparkles",
+          "disabledByDefault": true
         },
         {
           "name": "Teen Girls",
@@ -1615,7 +1617,8 @@
             "Too Hot To Handle",
             "The Vampire Diaries"
           ],
-          "icon": "Heart"
+          "icon": "Heart",
+          "disabledByDefault": true
         },
         {
           "name": "Kids",
@@ -2086,7 +2089,8 @@
             "Tim Cook",
             "Jack Ma"
           ],
-          "icon": "Cpu"
+          "icon": "Cpu",
+          "disabledByDefault": true
         },
         {
           "name": "Artists/Writers",
@@ -2118,7 +2122,8 @@
             "Ernest Hemingway",
             "Stan Lee"
           ],
-          "icon": "Palette"
+          "icon": "Palette",
+          "disabledByDefault": true
         },
         {
           "name": "Controversial",
@@ -2217,7 +2222,8 @@
             "Curry",
             "Arranged Marriage"
           ],
-          "icon": "Flower"
+          "icon": "Flower",
+          "disabledByDefault": true
         },
         {
           "name": "China",
@@ -2274,7 +2280,8 @@
             "Draco Malfoy",
             "Temu"
           ],
-          "icon": "Wind"
+          "icon": "Wind",
+          "disabledByDefault": true
         },
         {
           "name": "United States",
@@ -2387,7 +2394,8 @@
             "NASCAR",
             "ICE"
           ],
-          "icon": "Landmark"
+          "icon": "Landmark",
+          "disabledByDefault": true
         },
         {
           "name": "Latin America",
@@ -2469,7 +2477,8 @@
             "Bad Bunny",
             "Cuba"
           ],
-          "icon": "Music"
+          "icon": "Music",
+          "disabledByDefault": true
         },
         {
           "name": "Russia",
@@ -2500,7 +2509,8 @@
             "Joseph Stalin",
             "Rasputin"
           ],
-          "icon": "Snowflake"
+          "icon": "Snowflake",
+          "disabledByDefault": true
         },
         {
           "name": "Japan",
@@ -2547,7 +2557,8 @@
             "Spa",
             "Vending Machines"
           ],
-          "icon": "Mountain"
+          "icon": "Mountain",
+          "disabledByDefault": true
         },
         {
           "name": "Italy",
@@ -2580,7 +2591,8 @@
             "Khaby Lame",
             "Gucci"
           ],
-          "icon": "Pizza"
+          "icon": "Pizza",
+          "disabledByDefault": true
         },
         {
           "name": "France",
@@ -2608,7 +2620,8 @@
             "Catacombs",
             "Marie Curie"
           ],
-          "icon": "Wine"
+          "icon": "Wine",
+          "disabledByDefault": true
         },
         {
           "name": "Spain",
@@ -2640,7 +2653,8 @@
             "Pablo Picasso",
             "Salvador Dalí"
           ],
-          "icon": "Flame"
+          "icon": "Flame",
+          "disabledByDefault": true
         },
         {
           "name": "South Korea",
@@ -2675,7 +2689,8 @@
             "Hyundai",
             "Mukbang"
           ],
-          "icon": "Smartphone"
+          "icon": "Smartphone",
+          "disabledByDefault": true
         },
         {
           "name": "UAE",
@@ -2738,7 +2753,8 @@
             "Yas Mall Abu Dhabi",
             "Jewelry"
           ],
-          "icon": "Building"
+          "icon": "Building",
+          "disabledByDefault": true
         },
         {
           "name": "Canada",
@@ -2767,7 +2783,8 @@
             "Keanu Reeves",
             "Inuit"
           ],
-          "icon": "Leaf"
+          "icon": "Leaf",
+          "disabledByDefault": true
         },
         {
           "name": "UK",
@@ -2819,7 +2836,8 @@
             "Emma Watson",
             "British Museum"
           ],
-          "icon": "Crown"
+          "icon": "Crown",
+          "disabledByDefault": true
         },
         {
           "name": "Africa",
@@ -2854,7 +2872,8 @@
             "Fufu",
             "Maasai"
           ],
-          "icon": "PalmTree"
+          "icon": "PalmTree",
+          "disabledByDefault": true
         }
       ]
     },
@@ -2963,7 +2982,8 @@
             "Commencement",
             "Alumni"
           ],
-          "icon": "School"
+          "icon": "School",
+          "disabledByDefault": true
         },
         {
           "name": "Extracurriculars",
@@ -3112,7 +3132,8 @@
             "Scratch",
             "Bill Nye"
           ],
-          "icon": "FlaskConical"
+          "icon": "FlaskConical",
+          "disabledByDefault": true
         }
       ]
     },
@@ -3318,7 +3339,8 @@
             "Prince",
             "Ben Shelton"
           ],
-          "icon": "TableTennis"
+          "icon": "TableTennis",
+          "disabledByDefault": true
         },
         {
           "name": "Water Sports",
@@ -3355,7 +3377,8 @@
             "Freediving",
             "Snorkeling"
           ],
-          "icon": "Waves"
+          "icon": "Waves",
+          "disabledByDefault": true
         },
         {
           "name": "Combat Sports",
@@ -3396,7 +3419,8 @@
             "UFC",
             "WWE"
           ],
-          "icon": "Swords"
+          "icon": "Swords",
+          "disabledByDefault": true
         },
         {
           "name": "Baseball",
@@ -3499,7 +3523,8 @@
             "David Goggins",
             "Sunisa Lee"
           ],
-          "icon": "Plus"
+          "icon": "Plus",
+          "disabledByDefault": true
         }
       ]
     },
@@ -4054,7 +4079,8 @@
             "JoJo",
             "Baki"
           ],
-          "icon": "Sparkles"
+          "icon": "Sparkles",
+          "disabledByDefault": true
         },
         {
           "name": "Netflix & Prime",
@@ -4075,10 +4101,10 @@
             "Atom Eve",
             "Cecil Stedman",
             "Lucas Sinclair",
-            "Jinx",
-            "Thing (Wednesday)"
+            "Jinx"
           ],
-          "icon": "Tv"
+          "icon": "Tv",
+          "disabledByDefault": true
         },
         {
           "name": "Horror",
