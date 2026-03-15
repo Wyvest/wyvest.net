@@ -664,7 +664,8 @@
             "OceanGate",
             "Epstein",
             "Japan",
-            "Boss Baby"
+            "Boss Baby",
+            "PETA"
           ],
           "icon": "Clock",
           "disabledByDefault": true
@@ -933,7 +934,18 @@
             "W Speed",
             "Sisyphus",
             "-aholic",
-            "Put The Fries In The Bag"
+            "Put The Fries In The Bag",
+            "Tokyo Drift",
+            "Larp",
+            "Pigeon Doctor",
+            "Community Puh",
+            "You the real []",
+            "Burger",
+            "Scuba Dance",
+            "Clavicular",
+            "ASU",
+            "Cortisol",
+            "Japan Footsteps"
           ],
           "icon": "Zap"
         }
@@ -1827,7 +1839,8 @@
             "D4vd",
             "Jamiroquai",
             "Kurt Cobain",
-            "Kali Uchis"
+            "Kali Uchis",
+            "PinkPantheress"
           ],
           "icon": "Music"
         },
@@ -1950,7 +1963,9 @@
             "Muhammad Ali",
             "Mike Tyson",
             "Alex Honnold",
-            "David Goggins"
+            "David Goggins",
+            "Alysa Liu",
+            "Quad God"
           ],
           "icon": "Trophy"
         },
@@ -2390,7 +2405,9 @@
             "Marine",
             "Border",
             "NASCAR",
-            "ICE"
+            "ICE",
+            "Alysa Liu",
+            "Quad God"
           ],
           "icon": "Landmark",
           "disabledByDefault": true
@@ -2505,7 +2522,8 @@
             "Siberian Husky",
             "Nutcracker",
             "Joseph Stalin",
-            "Rasputin"
+            "Rasputin",
+            "Alexandra Trusova"
           ],
           "icon": "Snowflake",
           "disabledByDefault": true
@@ -2553,7 +2571,8 @@
             "Beyblade",
             "Kimono",
             "Spa",
-            "Vending Machines"
+            "Vending Machines",
+            "Tokyo Drift"
           ],
           "icon": "Mountain",
           "disabledByDefault": true
@@ -3519,7 +3538,9 @@
             "Eileen Gu",
             "Usain Bolt",
             "David Goggins",
-            "Sunisa Lee"
+            "Sunisa Lee",
+            "Alysa Liu",
+            "Quad God"
           ],
           "icon": "Plus",
           "disabledByDefault": true
