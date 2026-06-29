@@ -53,5 +53,5 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have any questions about this Privacy Policy, please contact us:
 
-- By email: support@polyfrost.org
-- By visiting this page on our website: https://polyfrost.org/discord
+- By email: wyvest@polyfrost.org
+- By visiting this page on our website: https://polyfrost.org/discord (ping Wyvest specifically)

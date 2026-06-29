@@ -1,2 +1,1 @@
 # wyvest.net
-wyvest.net.
